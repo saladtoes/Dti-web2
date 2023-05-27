@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "lobsterregular";
+  src: url("/fonts/lobster-regular-webfont.woff2") format("woff2"),
+    url("/fonts/lobster-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .container {
   background-image: url(/images/wallpaperflare.com_wallpaper\(1\).jpg);
   background-size: cover;
@@ -50,6 +57,7 @@
   font-size: 40px;
   padding-left: 50px;
   padding-top: 100px;
+  font-family: "lobsterregular";
 }
 
 .mainContents {
@@ -66,7 +74,6 @@
   font-size: 35px;
   margin-top: 20px;
 }
-
 .mainReadMore a {
   margin-left: 3vw;
   text-decoration: none;
