@@ -54,13 +54,18 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .mainHeader {
-  font-size: 40px;
+  color: white;
+
+  font-size: 2.5rem;
   padding-left: 50px;
   padding-top: 100px;
-  font-family: "lobsterregular";
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .mainContents {
+  color: black;
   font-size: 25px;
   word-wrap: normal;
   padding-right: 60vw;
@@ -79,14 +84,38 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
   border-radius: 8px;
-  border: 2px solid black;
+  border: 2px solid rgb(80, 80, 80);
   padding-left: 10px;
   padding-right: 10px;
   background: rgba(0, 0, 0, 0);
-  background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%, white 50%) right;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%, rgb(160, 160, 160) 50%) right;
   background-size: 200%;
-  transition: 0.4s ease-in;
+  transition: 0.34s ease-in;
 }
+
+/* text shadowing for header */
+
 .mainReadMore a:hover {
   background-position: left;
+}
+.mainHeader {
+  text-shadow: 9px 3px 4px rgba(0, 0, 0, 0.23);
+}
+.first {
+  text-shadow: -9px 7px 4px rgba(0, 0, 0, 0.23);
+}
+.I1 {
+  text-shadow: -4px 7px 4px rgba(0, 0, 0, 0.23);
+}
+.N {
+  text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.23);
+}
+.A {
+  text-shadow: 4px 7px 4px rgba(0, 0, 0, 0.23);
+}
+.T {
+  text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.23);
+}
+.I2 {
+  text-shadow: 7px 7px 4px rgba(0, 0, 0, 0.23);
 }
