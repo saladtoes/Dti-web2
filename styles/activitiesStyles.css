@@ -1,17 +1,12 @@
-.container {
-  background-image: url(/images/visitbackground.jpg);
-  background-size: cover;
-  height: 100vh;
-}
-
 .logo img {
   display: grid;
-  height: 10vh;
+  height: 80px;
   z-index: -9999;
 }
 .logo {
   padding-top: 10px;
   width: 0;
+  height: 100px;
 }
 .links {
   font-family: "Courier New", Courier, monospace;
@@ -82,4 +77,32 @@
 }
 .mainReadMore a:hover {
   background-position: left;
+}
+
+.topContainer {
+  height: 130px;
+  background-image: linear-gradient(
+    rgba(23, 23, 23, 1) 70%,
+    rgba(0, 0, 0, 0.5) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+#videoBackground {
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.HAVcontent {
+  top: 100vh;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }

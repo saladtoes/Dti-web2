@@ -1,9 +1,3 @@
-.container {
-  background-image: url(/images/visitbackground.jpg);
-  background-size: cover;
-  height: 100vh;
-}
-
 .logo img {
   display: grid;
   height: 10vh;
@@ -82,4 +76,8 @@
 }
 .mainReadMore a:hover {
   background-position: left;
+}
+.topContainer {
+  background-color: #171717;
+  height: 100px;
 }

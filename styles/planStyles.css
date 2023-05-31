@@ -1,17 +1,12 @@
-.container {
-  background-image: url(/images/visitbackground.jpg);
-  background-size: cover;
-  height: 100vh;
-}
-
 .logo img {
   display: grid;
-  height: 10vh;
+  height: 80px;
   z-index: -9999;
 }
 .logo {
   padding-top: 10px;
   width: 0;
+  height: 100px;
 }
 .links {
   font-family: "Courier New", Courier, monospace;
@@ -82,4 +77,20 @@
 }
 .mainReadMore a:hover {
   background-position: left;
+}
+.topContainer {
+  background-color: #171717;
+  height: 100px;
+}
+
+#videoBackground {
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }

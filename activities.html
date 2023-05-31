@@ -6,23 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/styles/normalize.css" />
-    <link rel="stylesheet" href="/styles/planStyles.css" />
+    <link rel="stylesheet" href="/styles/activitiesStyles.css" />
   </head>
   <body>
     <div class="container">
-      <div class="logo">
-        <a href="/index.html">
-          <img src="/images/logo-no-background.png" draggable="false" />
-        </a>
+      <div class="topContainer">
+        <div class="logo">
+          <a href="/index.html">
+            <img src="/images/logo-no-background.png" draggable="false" />
+          </a>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="/about.html">ABOUT NORTHLAND </a></li>
+            <li><a href="/accommodation.html">ACCOMMODATION </a></li>
+            <li><a href="/plan.html">PLAN YOUR TRIP </a></li>
+            <li><a href="/activities.html" id="current">ACTIVITIES</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="links">
-        <ul>
-          <li><a href="/about.html">ABOUT NORTHLAND </a></li>
-          <li><a href="/accommodation.html">ACCOMMODATION </a></li>
-          <li><a href="/plan.html">PLAN YOUR TRIP </a></li>
-          <li><a href="/activities.html" id="current">ACTIVITIES</a></li>
-        </ul>
+    </div>
+    <div class="headerAndVideo">
+      <video autoplay muted loop id="videoBackground">
+        <source src="videos/background.mp4" type="video/mp4" />
+      </video>
+      <div class="HAVcontent">
+        <h1>Activities In New Zealand</h1>
       </div>
+      <div class="filler"></div>
     </div>
   </body>
 </html>
