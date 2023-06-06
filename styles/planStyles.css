@@ -94,3 +94,80 @@
   bottom: 0;
   z-index: -1;
 }
+
+.contact-dropdown,
+.contact,
+.dropdown {
+  text-decoration: none;
+  color: black;
+  float: right;
+  top: 10px;
+  padding-left: 20px;
+}
+
+.contact-dropdown:hover,
+.contact:hover {
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.contact-dropdown:hover a,
+.contact:hover a {
+  text-decoration: none;
+}
+
+.contact-dropdown {
+  display: inline-block;
+  background-color: #171717;
+  text-decoration: none;
+  color: white;
+}
+
+.contact:hover {
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+.contact-content {
+  display: none;
+  position: absolute;
+  text-decoration: none;
+  z-index: 1;
+  background-color: white;
+}
+.contact-content:hover {
+  display: none;
+  text-decoration: none;
+  background-color: orange;
+  z-index: 1;
+}
+.contact-content a:hover {
+  background-color: darkslategray;
+}
+
+.contact-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .contact-content {
+  display: block;
+  text-decoration: none;
+}
+.menu:nth-child(1) {
+  transition-delay: 200ms;
+}
+
+.menu:nth-child(2) {
+  transition-delay: 400ms;
+}
+.menu:nth-child(3) {
+  transition-delay: 600ms;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
