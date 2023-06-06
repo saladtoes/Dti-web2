@@ -1,0 +1,96 @@
+.logo img {
+  display: grid;
+  height: 80px;
+  z-index: -9999;
+}
+.logo {
+  padding-top: 10px;
+  width: 0;
+  height: 100px;
+}
+.links {
+  font-family: "Courier New", Courier, monospace;
+  float: right;
+}
+.links ul {
+  font-size: 20px;
+  margin-top: -80px;
+  float: right;
+  list-style-type: none;
+  padding-right: 100px;
+}
+.links ul li {
+  display: inline-block;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+#current {
+  text-decoration: underline;
+}
+.links ul li a:link,
+.links ul li a:visited {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  transition: ease 0.5s color;
+}
+.links ul li a:hover {
+  color: rgb(218, 218, 255);
+}
+.header {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.mainHeader {
+  font-size: 40px;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+.mainContents {
+  font-size: 25px;
+  word-wrap: normal;
+  padding-right: 60vw;
+  padding-left: 3vw;
+  margin-top: -50px;
+}
+
+.mainReadMore {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.mainReadMore a {
+  margin-left: 3vw;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  border: 2px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgba(0, 0, 0, 0);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%, white 50%) right;
+  background-size: 200%;
+  transition: 0.4s ease-in;
+}
+.mainReadMore a:hover {
+  background-position: left;
+}
+.topContainer {
+  background-color: #171717;
+  height: 100px;
+}
+
+#videoBackground {
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}

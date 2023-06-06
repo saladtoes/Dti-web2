@@ -13,12 +13,13 @@
 
 .logo img {
   display: grid;
-  height: 10vh;
+  height: 80px;
   z-index: -9999;
 }
 .logo {
   padding-top: 10px;
   width: 0;
+  height: 100px;
 }
 .links {
   font-family: "Courier New", Courier, monospace;
@@ -122,4 +123,9 @@
 }
 .I2 {
   text-shadow: 7px 7px 4px rgba(0, 0, 0, 0.23);
+}
+
+.topContainer {
+  background-color: #171717;
+  height: 100px;
 }
